@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid blue;
+    padding: 30px;
+    height: 100px;
+}
+.tag{
+    color: gray;
+}
+.star{
+    background-color: blue;
+}
