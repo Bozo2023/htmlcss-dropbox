@@ -3,14 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: sans-serif;
+}
 header{
     border: 1px solid blue;
     padding: 30px;
-    height: 100px;
+    height: 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+  text-transform: capitalize;
 }
 .tag{
     color: gray;
 }
 .star{
     background-color: blue;
+}
+li{
+    list-style-type: none;
 }
