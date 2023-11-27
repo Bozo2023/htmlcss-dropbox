@@ -21,10 +21,10 @@ ul{
 }
 li{
   text-transform: capitalize;
-}
-.tag{
+}a{
     color: gray;
 }
+
 .star{
     background-color: blue;
 }
