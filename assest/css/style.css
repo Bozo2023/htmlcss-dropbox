@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-ul{
+.first{
     display: flex;
     gap: 10px;
 }
@@ -74,4 +74,24 @@ h1{
 #down{
     font-size: 50px;
     color: black;
+}
+.two{
+    border: 1px solid blueviolet;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.col{
+    display: flex;
+    gap: 30px;
+}
+.selec{
+    display: flex;
+}
+.nom{
+    border: 1px solid grey;
+}
+.singo{
+    border: 1px solid grey;
+    width:30
 }
