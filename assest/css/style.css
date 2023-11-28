@@ -21,12 +21,19 @@ ul{
 }
 li{
   text-transform: capitalize;
-}a{
+}
+a{
     color: gray;
+    text-decoration: none;
 }
 
 .star{
     background-color: blue;
+    color: white;
+    padding: 5px;
+}
+.star:hover{
+    opacity: 0.8;
 }
 li{
     list-style-type: none;
