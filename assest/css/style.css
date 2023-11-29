@@ -21,7 +21,7 @@ nav{
 li{
   text-transform: capitalize;
 }
-a{
+ .first a{
     color: gray;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@ a{
 .star:hover{
     opacity: 0.8;
 }
-li{
+.first li{
     list-style-type: none;
 }
 .boite{
@@ -71,12 +71,7 @@ h1{
 .one{
     background-color:lightskyblue;
 }
-#down{
-    font-size: 50px;
-    color: black;
-}
 .two{
-    border: 1px solid blueviolet;
     width: 70%;
     margin: 0 auto;
     padding-top: 90px;
@@ -84,14 +79,56 @@ h1{
 .col{
     display: flex;
     gap: 30px;
+    padding-top: 30px;
 }
 .selec{
+    padding-top: 40px;
     display: flex;
+    justify-content:space-between ;
+    
 }
 .nom{
     border: 1px solid grey;
+    text-align: center;
 }
 .singo{
     border: 1px solid grey;
-    width:30
+    width:300px;
+    height: 850px;
+}
+.man li{
+ padding: 15px;
+ list-style-type: none;
+ font-size: small;
+}
+.mois{
+    color: grey;
+}
+.check{
+   color: red;
+    font-size: large;
+}
+.tre{
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 50px;
+    border: 1px solid gray;
+
+}
+.tall{
+    border: 1px solid grey;
+    text-align: center;  
+}
+.tre1 ul{
+    display: flex;
+    list-style-type: none;
+justify-content: space-between;
+padding: 20px;
+}
+.lien{
+    color: gray;
+    text-decoration: none;
+    padding: 20px;
+    width: 70%;
 }
