@@ -138,6 +138,7 @@ padding: 20px;
     padding-top: 150px;
     width: 70%;
     margin: 0 auto;
+    border: 1px solid red;
     
     
 }
@@ -156,4 +157,15 @@ padding: 20px;
 }
 .pri{
     padding-top: 30px;
+    display: flex;
 }
+.forprime{
+  
+}
+.sol{
+    border: 1px solid blue;
+    height: 500px;
+    width: 500px;
+}
+
+    
